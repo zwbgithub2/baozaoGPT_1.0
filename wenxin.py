@@ -23,6 +23,5 @@ def get_chat_response(prompt, memory):
 
 memory = ConversationBufferMemory(return_messages=True)
 
-
-print(get_chat_response("牛顿提出过哪些知名的定律？", memory))
-print(get_chat_response("我上一个问题是什么？", memory))
+#print(get_chat_response("牛顿提出过哪些知名的定律？", memory))
+#print(get_chat_response("我上一个问题是什么？", memory))
